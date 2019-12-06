@@ -122,6 +122,9 @@ class Renderer extends Visitor {
         }
 
         if (value == noSuchProperty) {
+            value = null;
+        }
+        if (value == noSuchProperty) {
             if (!lenient) {
                 throw error('Value was missing for variable tag: ${node.name}.', node);
             }
@@ -146,6 +149,9 @@ class Renderer extends Visitor {
     void _renderSection(SectionNode node) {
         var value = resolveValue(node.name);
 
+        if (value == noSuchProperty) {
+            value = null;
+        }
         if (value == null) {
             // Do nothing.
 
