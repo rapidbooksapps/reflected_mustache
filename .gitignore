@@ -5,3 +5,5 @@ packages
 /.idea
 /.packages
 *.reflectable.dart
+.DS_Store
+.dart_tool

@@ -4,9 +4,9 @@ library mustache.renderer;
 //import 'dart:mirrors';
 
 import 'package:logging/logging.dart';
+import 'package:reflected_mustache/mirrors.dart';
 
 import 'package:reflected_mustache/mustache.dart' as m;
-import 'package:reflectable/reflectable.dart';
 
 import 'lambda_context.dart';
 import 'node.dart';

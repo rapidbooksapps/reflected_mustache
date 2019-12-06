@@ -9,10 +9,21 @@ environment:
   sdk: ">=2.0.0 <3.0.0"
 
 dependencies:
-  reflectable: ^2.0.0
+  analyzer: '>=0.36.0 <0.39.0'
+  build: ^1.2.0
+  build_resolvers: ^1.2.0
+  build_config: ^0.4.0
+  build_runner: ^1.7.0
+  build_runner_core: ^4.1.0
+  dart_style: ^1.2.3
+  glob: ^1.2.0
+  logging: ^0.11.0
+  package_config: ^1.1.0
+  package_resolver: ^1.0.0
+  path: ^1.6.0
+  source_span: ^1.5.0
+#  reflectable: ^2.0.0
     # path: /Volumes/Daten/DevLocal/DevDart/reflectable
-
-  logging: '>=0.11.3 <1.0.0'
 
 dev_dependencies:
   test: any

@@ -2,7 +2,8 @@
 
 library mustache;
 
-import 'package:reflectable/reflectable.dart';
+import 'package:reflected_mustache/reflectable.dart';
+
 import 'src/template.dart' as t;
 
 class MustacheMirrorsUsedAnnotation extends Reflectable {
